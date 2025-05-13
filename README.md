@@ -1,11 +1,16 @@
-# Technigo React Vite Boilerplate
-This boilerplate is designed to give you a head start in your React projects, with a focus on understanding the structure and components.
+# React Router Exercise: Rolling Stones' Top 500 Songs
 
-## Getting Started
+## Overview
 
-1. Begin with clicking "Use this template", to create your own repository using this boilerplate.
-2. Clone the repository to your local machine.
-3. Install the required dependencies using `npm install`.
-4. Start the development server using `npm run dev`.
+You'll be working with a songs.json file, which contains a "songs" key. This key holds an array of the Rolling Stones' 500 best songs. Each song object has details like rank, title, artist, album, and year.
 
-Happy coding!
+## Requirements
+
+- Fetch and display song titles on the homepage.
+- Use the song's title as a key to create dynamic routes. For instance, if a song's title is "Imagine", the route should be /song/imagine.
+- When a song title is clicked, it should route to a dynamic page displaying all the song's details.
+- When on the song details page, there should be a way to navigate back to homepage
+
+## Rule
+
+Always use the song's title key to generate the dynamic route for each song's detailed view.
